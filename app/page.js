@@ -4,7 +4,7 @@ import { products } from "../data/products";
 export default function Home() {
   return (
     <main style={{ padding: "20px" }}>
-      <h1 style={{ textAlign: "center" }}>Tienda de prueba</h1>
+      <h1 style={{ textAlign: "center" }}>Tienda la gata</h1>
       <div style={{
         display: "flex",
         justifyContent: "center",
