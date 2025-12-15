@@ -4,7 +4,7 @@ import { products } from "../data/products";
 export default function Home() {
   return (
     <main style={{ padding: "20px" }}>
-      <h1 style={{ textAlign: "center" }}>Tienda de Suplementos</h1>
+      <h1 style={{ textAlign: "center" }}>Tienda de prueba</h1>
       <div style={{
         display: "flex",
         justifyContent: "center",
@@ -17,7 +17,7 @@ export default function Home() {
             <img src={product.image} alt={product.name} style={{ width: "100%", height: "150px", objectFit: "cover" }} />
             <h3>{product.name}</h3>
             <p>${product.price}</p>
-            <Link href={`/product/${product.id}`}>Ver detalle</Link>
+            <Link href={`/product/${product.id}`}>Ver info</Link>
           </div>
         ))}
       </div>
